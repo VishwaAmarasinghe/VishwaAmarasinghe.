@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>V WEB</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    
+  </head>
+<body>
+  <section id="home">
+    <header>
+       <nav class="nav">
+        
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+              <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo">VISHWA</label>
+            <ul class="ul">
+              <li class="li"><a  href="#home" class="active">Home</a></li>
+              <li class="li"><a href="#about">About</a></li>
+              <li class="li"><a href="#myworks">My Works</a></li>
+              <li class="li"><a href="#Contact">Contact</a></li>
+              <li class="li"><a href="#Feedback">Feedback</a></li>
+            </ul>
+          
+        </nav>
+
+        <h1 class="big-title">Wellcome to my official web site</h1>
+        <div class="parallax"></div>
+     
+    </header>
+    <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script  src="https://cdpn.io/cp/internal/boomboom/pen.js?key=pen.js-067c960f-cbf0-740f-ac0c-f24ff911a3e5" crossorigin></script>
+    
+    
+       
+        
+    </section>
+<section id="about">
+<center><h1 class="topic1">ABOUT ME</h1></center>
+<center>  <img src="img\vishwa.jpeg" alt="" class="img-responsive" id="myimg" ></center>
+
+
+  <div class="wrapper">
+    <div class="static-txt">I'm a </div>
+    <ul class="dynamic-txts">
+      <li><span>student</span></li>
+      <li><span>Designer</span></li>
+      <li><span class="dev">Developer</span></li>
+      
+    </ul>
+  </div>
+  
+
+  <div class="aboutme"> <p> <ul>
+    <li> Hi I'm Vishwa Poornaka Amarasinghe</li>
+    <li>My school is <a href="https://www.sack.edu.lk/"target="_blank" class="school">St.Anthony's college Kandy</a></li> 
+    <li>My favourite subjects are science & ICT</li>
+    <li>There are four members in my family</li> 
+    <li>They are my mother,father and my sister</li>
+    </ul></p></div>
+
+
+<center>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/my family.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://alpanthiya.lk/wp-content/uploads/2020/10/SACK-Hall-scaled.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+       
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+</center>
+</section>
+  <section id="myworks">
+    <center><h1 class="topic1">MY WORKS</h1></center>
+
+<div class="product">
+  <center>
+  <div class="product-small-img">
+    <img src="img/python sertificate.jpg" alt="" onclick="myfunction(this)">
+    <img src="img/SCRCH RESALT.jpeg" alt="" onclick="myfunction(this)">
+    <img src="img/setivicket.jpg" alt="" onclick="myfunction(this)">
+  </div>
+</center>
+<center>  <div class="img-container">
+  <img src="img/python sertificate.jpg" alt="" id="imageBox">
+</div></center>
+
+</div>
+
+
+  </section>
+  <section id="Contact"></section>
+  <section id="Feedback"></section>
+    
+    <script src="app.js"></script>
+  </body>
+    </html>
