@@ -137,7 +137,7 @@ label.logo{
 }
 #myworks{
     background-color:#c7ecee;
-    height: 1000px;
+    height: 1510px;
     width: 100%;
    }   
    #about{
@@ -429,4 +429,19 @@ float: none;
  height: 60px;
 
   }
+}
+.topic3{
+
+  position: relative;
+  top: 150px;
+}
+.card{
+  position: relative;
+  top: 180px;
+  left: 20px;
+}
+.card-img-top{
+  width: 200px;
+  height: auto;
+  
 }
