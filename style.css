@@ -437,12 +437,31 @@ float: none;
 }
 .card{
   position: relative;
-  top: 180px;
-  left: 20px;
-  
+  top: 190px;
+}
+.row {
+  width: 800px;
+  height: auto;
 }
 .card-img-top{
-  width: 200px;
+  position: relative;
+  top: 10px;
+  width: 100px;
   height: auto;
-  
+}
+@media (max-width:817px){
+.row{
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  margin-right: 0px;
+ float: none;
+}
+
+}
+@media (max-width:776px){
+
+  #myworks{
+    height: 2000px;
+  }
 }
