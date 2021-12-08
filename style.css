@@ -137,7 +137,7 @@ label.logo{
 }
 #myworks{
     background-color:#c7ecee;
-    height: 1600px;
+    height: 1800px;
     width: 100%;
    }   
    #about{
@@ -150,11 +150,7 @@ label.logo{
     height: 1000px;
     width: 100%;
    }
-   #Feedback{
-    background-color: #dfe6e9;
-    height: 1000px;
-    width: 100%;
-   } 
+
 
    .parallax {
     /* The image used */
@@ -440,8 +436,9 @@ float: none;
   top: 190px;
 }
 .row {
-  width: 800px;
-  height: auto;
+  width: 1500px;
+  height: 450px;
+  max-width: 100%;
 }
 .card-img-top{
   position: relative;
@@ -462,6 +459,23 @@ float: none;
 @media (max-width:776px){
 
   #myworks{
-    height: 2000px;
+    height: 2600px;
   }
+}
+#java {
+
+width: 200px;
+
+}
+
+#html{
+
+  width: 175px;
+}
+#python{
+
+  width: 175px;
+}
+#filmora{
+  width: 175px;
 }
