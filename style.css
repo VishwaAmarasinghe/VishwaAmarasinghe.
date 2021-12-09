@@ -480,3 +480,28 @@ width: 180px;
   width: 175px;
 }
 
+.box1{
+width: 50%;
+height:100px;
+background-color: #fff;
+position: relative;
+left: 10px;
+border-radius: 30px;
+
+
+}
+
+.fa-phone-alt{
+ position: relative;
+ font-size: 40px;
+ left: 50px;
+ top: 30px;
+
+}
+.num{
+
+  position: relative;
+  font-size: 30px;
+  top: 30px;
+  left: 70px;
+}
