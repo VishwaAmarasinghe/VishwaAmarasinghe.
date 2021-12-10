@@ -479,29 +479,32 @@ width: 180px;
 #filmora{
   width: 175px;
 }
+#contact-img{
 
-.box1{
-width: 50%;
-height:100px;
-background-color: #fff;
-position: relative;
-left: 10px;
-border-radius: 30px;
-
-
+  width: 500px;
 }
-
+.box1{
+  position: relative;
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  border-radius: 50%;
+  float: right;
+  margin-right: 500px;
+  top: 50px;
+}
 .fa-phone-alt{
- position: relative;
- font-size: 40px;
- left: 50px;
- top: 30px;
-
+  position: relative;
+  color:rgb(53, 52, 52);
+  font-size: 40px;
+  top: 25px;
+  margin-left: 20px;
 }
 .num{
-
   position: relative;
-  font-size: 30px;
-  top: 30px;
-  left: 70px;
+  float: right;
+  top: -10px;
+  left: 150px;
+  font-size: 25px;
+
 }
