@@ -32,7 +32,7 @@ nav.find('a').on('click', function () {
 });
 // Cache selectors
 var lastId,
- topMenu = $("#mainNav"),
+ topMenu = $("nav"),
  topMenuHeight = topMenu.outerHeight()+1,
  // All list items
  menuItems = topMenu.find("a"),

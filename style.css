@@ -142,7 +142,7 @@ label.logo{
    }   
    #about{
     background-color: #dcdde1;
-    height: 1510px;
+    height: 1660px;
     width: 100%;
    }
    #Contact{
@@ -341,7 +341,8 @@ float: none;
 #carouselExampleCaptions{
   position: relative;
   top: 300px;
-  width: 100%;
+  width: 90%;
+  height: 80%;
   
 
 }
@@ -479,32 +480,17 @@ width: 180px;
 #filmora{
   width: 175px;
 }
-#contact-img{
+.phone{
 
-  width: 500px;
-}
-.box1{
+  display: inline-block;
+  width: 100%;
   position: relative;
-  width: 80px;
-  height: 80px;
-  background-color: #fff;
-  border-radius: 50%;
-  float: right;
-  margin-right: 500px;
-  top: 50px;
+  top: 10px;
 }
 .fa-phone-alt{
-  position: relative;
-  color:rgb(53, 52, 52);
-  font-size: 40px;
-  top: 25px;
-  margin-left: 20px;
-}
-.num{
-  position: relative;
-  float: right;
-  top: -10px;
-  left: 150px;
-  font-size: 25px;
 
+  background-color: #fff;
+  
 }
+    
+
