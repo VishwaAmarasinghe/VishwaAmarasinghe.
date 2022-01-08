@@ -493,4 +493,32 @@ width: 180px;
   
 }
     
+#contact-main{
+  position: relative;
+  top: 50px;
+  width: 50%;
+  font-size: 20px;
+  margin-left: 50px;
+  
+  background-color: aqua;
 
+}
+.fa-map-marker-alt{
+  border: 10px solid #FC6D6D;
+  border-radius: 50%;
+  background-color: #FC6D6D ;
+
+}
+
+.fa-phone{
+  border: 10px solid #FC6D6D;
+  border-radius: 50%;
+  background-color: #FC6D6D ;
+
+}
+.fa-envelope{
+  border: 10px solid #FC6D6D;
+  border-radius: 50%;
+  background-color: #FC6D6D ;
+
+}
