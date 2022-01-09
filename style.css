@@ -544,3 +544,10 @@ width: 180px;
   }
 }
 
+.icons{
+  background-color: #fff;
+  width: 50%;
+  height: 130px;
+  border-radius: 30px;
+  border: #000 solid 3px;
+}
