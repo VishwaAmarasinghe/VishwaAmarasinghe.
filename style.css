@@ -530,6 +530,7 @@ width: 180px;
     width: 90%;
     margin-left: 0px;
   }
+
 }
 @media (max-width: 355px){
 
@@ -547,7 +548,12 @@ width: 180px;
 .icons{
   background-color: #fff;
   width: 50%;
-  height: 130px;
   border-radius: 30px;
   border: #000 solid 3px;
+}
+@media (max-width: 902px){
+  .icons{
+    width: 90%;
+    margin: 0px;
+  }
 }
