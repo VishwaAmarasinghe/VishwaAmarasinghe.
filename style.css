@@ -552,10 +552,14 @@ font-size: 30px;
 }
 .footer{
 background-color: rgb(211, 197, 197);
-height: 80px;
+height: 120px;
 
 }
-.links{
-  float: right;
-  margin-right: 10px;
+a{
+ text-decoration: none;
+ color: #000;
+
+}
+.footer a {
+  font-size: 20px;
 }
