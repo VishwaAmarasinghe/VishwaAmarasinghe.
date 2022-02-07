@@ -14,11 +14,11 @@
     integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
   </script>
   <script
-  src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js">
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdpn.io/cp/internal/boomboom/pen.js?key=pen.js-067c960f-cbf0-740f-ac0c-f24ff911a3e5"
-  crossorigin></script>
+    src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdpn.io/cp/internal/boomboom/pen.js?key=pen.js-067c960f-cbf0-740f-ac0c-f24ff911a3e5" crossorigin>
+  </script>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
@@ -50,7 +50,7 @@
     </header>
     <h1 class="big-title">Welcome to my official web site</h1>
     <div class="parallax"></div>
-    
+
 
 
 
@@ -155,7 +155,7 @@
       <center>my telents at</center>
     </h2>
     <center>
-      <div class="row row-cols-1 row-cols-md-4 g-4">
+      <div class="row row-1 row-cols-1 row-cols-md-4 g-4">
         <div class="col">
           <div class="card h-100">
             <center><img src="img/python img.png" class="card-img-top" id="python" alt="...">
@@ -210,19 +210,72 @@
     <h1>
       <center>CONTACT ME</center>
     </h1>
-    <div id="contact-main">
-      <br>
-      &nbsp;<span class="ad-icon ps-2"><i class="fas fa-map-marker-alt"></i></span>&nbsp;&nbsp;<span
-        class="adres">Address :-<br> &nbsp;&nbsp;87/21/c/Paranaganthota rd, Mawilmada, Kandy, Sri lanka</span>
-      <br><br><br>
-      &nbsp;<span class="pn-icon ps-2"><i class="fas fa-phone"></i></span>&nbsp;&nbsp;<span class="num">Phone number :-
-        <br>&nbsp;&nbsp;0756430206 </span>
-      <br><br><br>
-      &nbsp;<span class="em-icon ps-2"><i class="fas fa-envelope"></i></span>&nbsp;&nbsp;<span class="email">Email
-        :-<br> &nbsp;&nbsp;
-        dvpamarasinghe31@gmail.com</span>
-      <br><br>
-    </div>
+    <center>
+      <div class="contact-main row row-cols-1 row-cols-md-2 g-2">
+        <div class="contact">
+          <br>
+          &nbsp;<span class="ad-icon ps-4"><i class="fas fa-map-marker-alt"></i></span>&nbsp;&nbsp;<span
+            class="adres">Address :-<br> &nbsp;&nbsp;87/21/c/Paranaganthota rd, Mawilmada, Kandy, Sri lanka</span>
+          <br><br><br>
+          &nbsp;<span class="pn-icon ps-4"><i class="fas fa-phone"></i></span>&nbsp;&nbsp;<span class="num">Phone number
+            :-
+            <br>&nbsp;&nbsp;0756430206 </span>
+          <br><br><br>
+          &nbsp;<span class="em-icon ps-4"><i class="fas fa-envelope"></i></span>&nbsp;&nbsp;<span class="email">Email
+            :-<br> &nbsp;&nbsp;
+            dvpamarasinghe31@gmail.com</span>
+          <br><br>
+        </div>
+        <div class="form">
+          <form class="row g-3 ps-4 pe-4">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Password</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress2" class="form-label">Address 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">City</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">State</label>
+              <select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+          </form><br>
+        </div>
+      </div>
+    </center>
+
+
 
     <br><br><br><br>
     <h2>
@@ -249,11 +302,11 @@
   <footer class="footer">
     <div class="text-center">
       <br>&nbsp;&nbsp;
-       <a href="#" target="_blank" rel="noopener noreferrer" id="hover">©️<script>
-        document.write(new Date().getFullYear())
-      </script>
-      Vishwa
-    </a>
+      <a href="#" target="_blank" rel="noopener noreferrer" id="hover">©️<script>
+          document.write(new Date().getFullYear())
+        </script>
+        Vishwa
+      </a>
     </div>
 
     <div class="text-center">
