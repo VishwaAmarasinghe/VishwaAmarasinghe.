@@ -32,13 +32,7 @@ nav .container{
 }
 
 label.logo{
-    color: #00FF00;
- 
-    
-    text-shadow: 
-    -1px -1px 10px #2196f3,
-    -1px -1px 10px #2196f3, 
-    -1px -1px 10px #2196f3;
+    color: #000;
     font-size: 35px;
     line-height: 80px;
     padding: 0 100px;
@@ -71,7 +65,7 @@ label.logo{
 
   .checkbtn{
     font-size: 30px;
-    color: white;
+    color: black;
     float: right;
     line-height: 80px;
     margin-right: 40px;
@@ -84,7 +78,7 @@ label.logo{
   nav .ul .li a.active{
     background: none;
     color: #2196f3;
-      box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);}
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);}
 
   @media (max-width: 952px){
     label.logo{
@@ -102,13 +96,13 @@ label.logo{
       right: 0px;
     }
     nav{
-      background: #f8c291;
+      background: #fff;
     }
     .ul{
       position: fixed;
       width: 100%;
       height: 100vh;
-      background: #f8c291;
+      background: #fff;
       top: 80px;
       left: -100%;
       text-align: center;
@@ -562,4 +556,18 @@ a{
 }
 .footer a {
   font-size: 20px;
+}
+
+#hover:hover{
+  color: #000;
+}
+.bg-green{
+background-color: rgb(13, 196, 13);
+
+}
+.bg-itch{
+  background-color:  #FC6D6D;
+}
+.bg-insta{
+  background-color:  #e4405f;
 }
