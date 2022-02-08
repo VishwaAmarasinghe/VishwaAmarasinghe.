@@ -82,3 +82,21 @@ $(window).scroll(function(){
 function myfunction(smallImg)
 {var fullImg = document.getElementById("imageBox");
 fullImg.src = smallImg.src;}
+/*my works end in here*/
+/*typed js*/
+var app = document.getElementById('app');
+
+var typewriter = new Typewriter(app, {
+  loop: true
+});
+
+typewriter.typeString('Hello guys I am <b class="text-danger">VISHWA</b>')
+  .pauseFor(2500)
+  .deleteChars(6)
+  .typeString('a <b class="text-danger">designer</b>')
+  .pauseFor(2500)
+  .deleteChars(8)
+  .typeString('<b class="text-danger">programmer</b>')
+  .pauseFor(2500)
+  .start();
+  /*typed js end in here*/
