@@ -93,10 +93,10 @@ var typewriter = new Typewriter(app, {
 typewriter.typeString('Hello guys I am <b class="text-danger">VISHWA</b>')
   .pauseFor(2500)
   .deleteChars(6)
-  .typeString('a <b class="text-danger">designer</b>')
+  .typeString('a <b class="text-danger">DESINGNER</b>')
   .pauseFor(2500)
-  .deleteChars(8)
-  .typeString('<b class="text-danger">programmer</b>')
+  .deleteChars(9)
+  .typeString('<b class="text-danger">PROGRAMMER</b>')
   .pauseFor(2500)
   .start();
   /*typed js end in here*/

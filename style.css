@@ -490,13 +490,14 @@ height: 120px;
 }
 a{
  text-decoration: none;
- color: #000;
 
 }
 .footer a {
   font-size: 20px;
 }
-
+#hover{
+  color: #000;
+}
 #hover:hover{
   color: #000;
 }
