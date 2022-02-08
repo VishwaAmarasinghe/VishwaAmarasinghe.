@@ -195,70 +195,8 @@ label.logo{
   top: 5%;
   margin-left: 20px;
 }
-  .wrapper{
-    display: flex;
-    position: relative;
-    margin-left:20px;
-    top: 20px;
-  
-}
-.wrapper .static-txt{
-  color: #fff;
-  font-size: 60px;
-  
-}
-.wrapper .dynamic-txts{
-  margin-left: 10px;
-  height: 80px;
-  line-height: 90px;
-  overflow: hidden;
-}
-.dynamic-txts li{
-  list-style: none;
-  color: #FC6D6D;
-  font-size: 60px;
-  font-weight: 500;
-  position: relative;
-  top: 0;
-  animation: slide 12s steps(4) infinite;
-}
-@keyframes slide {
-  100%{
-    top: -360px;
-  }
-}
-.dynamic-txts li span{
-  position: relative;
-  margin: 10px 0;
-  line-height: 80px;
-}
-.dynamic-txts li span::after{
-  content: "";
-  position: absolute;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: #dcdde1;
-  border-left: 4px solid #FC6D6D;
-  animation: typing 3s steps(10) infinite;
-}
-@keyframes typing {
-  40%, 60%{
-    left: calc(100% + 30px);
-  }
-  100%{
-    left: 0;
-  }
-}
-@media (max-width:959px){
-.wrapper .static-txt{
-  font-size: 35px;
-}
-}
+
 @media (max-width:902px){
-  .wrapper{
-  display: none;
-  }
   #myimg{
  position: relative;
  top: 2px;
@@ -576,6 +514,14 @@ background-color: rgb(13, 196, 13);
   #Contact{
     height: 2000px;
 
+  }
+
+}
+@media(max-width:526){
+
+  #app{
+
+    margin-left: 0px;
   }
 
 }
