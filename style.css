@@ -427,23 +427,26 @@ float: none;
 
 }
 .fa-map-marker-alt{
-  border: 10px solid #FC6D6D;
+  border: 10px solid #c8d6e5;
   border-radius: 50%;
-  background-color: #FC6D6D ;
+  background-color: #c8d6e5;
 
 }
 
 .fa-phone{
-  border: 10px solid #FC6D6D;
+  border: 10px solid #c8d6e5;
   border-radius: 50%;
-  background-color: #FC6D6D ;
+  background-color:  #c8d6e5;
 
 }
 .fa-envelope{
-  border: 10px solid #FC6D6D;
+  border: 10px solid #c8d6e5 ;
   border-radius: 50%;
-  background-color: #FC6D6D ;
+  background-color:#c8d6e5 ;
 
+}
+.form-col{
+  background-color: #575fcf;
 }
 @media (max-width: 902px){
 
@@ -512,4 +515,8 @@ background-color: rgb(13, 196, 13);
     margin-left: 0px;
   }
 
+}
+.con-col{
+
+  background-color: #20c997;
 }
