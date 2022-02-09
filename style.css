@@ -400,22 +400,9 @@ float: none;
     height: 2600px;
   }
 }
-#java {
+.col-card{
 
-width: 180px;
-
-}
-
-#html{
-
-  width: 175px;
-}
-#python{
-
-  width: 175px;
-}
-#filmora{
-  width: 175px;
+  background-color:#54a0ff;
 }
 .phone{
 
