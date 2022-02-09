@@ -388,14 +388,16 @@ float: none;
     max-width: 100%;
     height: auto;
     margin-right: 0px;
-   float: none;
+    float: none;
   }
   
   }
 
-
-@media (max-width:776px){
-
+@media (max-width:905px){
+  #carouselExampleCaptions{
+    position: relative;
+    top: 100px;
+  }
   #myworks{
     height: 2600px;
   }
