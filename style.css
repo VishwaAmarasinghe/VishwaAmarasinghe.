@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 
 *{
     padding: 0;
@@ -20,8 +21,7 @@ nav{
     width: 100%;
     padding: 1rem 0;
     z-index: 50;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-  backdrop-filter: blur(10px);
+    background-color: #fff;
     
 }
 
@@ -125,23 +125,23 @@ label.logo{
 /*responsive nav ends in here*/
 /*smooth scroll sections start in here*/
 #home{
-  background:#fab1a0;
+
       height: 1000px;
     width: 100%;
 }
 #myworks{
-    background-color:#c7ecee;
+
     height: 1800px;
     width: 100%;
    }   
    #about{
-    background-color: #dcdde1;
+
     height: 1660px;
     width: 100%;
    }
    #Contact{
-    background-color: #dcdde1;
-    height: 830px;
+    
+    height: 920px;
     width: 100%;
    }
 
@@ -368,6 +368,10 @@ float: none;
   position: relative;
   top: 190px;
   box-shadow: 0 2px 10px 0 rgba(0,0,0,.2);
+  
+}
+.card-title{
+  font-family: "Righteous", cursive;
 }
 .row-1 {
   width: 1500px;
@@ -398,14 +402,14 @@ float: none;
     position: relative;
     top: 100px;
   }
+}
+@media(max-width:768px){
+
   #myworks{
-    height: 2600px;
+    height: 2500px;
   }
 }
-.col-card{
 
-  background-color:#54a0ff;
-}
 .phone{
 
   display: inline-block;
@@ -424,27 +428,30 @@ float: none;
   top: 50px;
   width: 90%;
   font-size: 20px;
-  background-color:#dff9fb;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,.5);
 
 }
+
+
 .fa-map-marker-alt{
-  border: 10px solid #c8d6e5;
+  padding: 10px;
+  border: 2px solid #000;
   border-radius: 50%;
-  background-color: #c8d6e5;
 
 }
 
 .fa-phone{
-  border: 10px solid #c8d6e5;
+  padding: 10px;
+  border: 2px solid #000;
   border-radius: 50%;
-  background-color:  #c8d6e5;
+
 
 }
 .fa-envelope{
-  border: 10px solid #c8d6e5 ;
+  padding: 10px;
+  border: 2px solid #000 ;
   border-radius: 50%;
-  background-color:#c8d6e5 ;
+
 
 }
 .form-col{
@@ -476,7 +483,7 @@ font-size: 25px;
 
 }
 .footer{
-background-color: rgb(211, 197, 197);
+
 height: 120px;
 
 }
