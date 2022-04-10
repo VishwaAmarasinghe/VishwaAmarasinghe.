@@ -561,3 +561,16 @@ background-color: rgb(13, 196, 13);
   width: 90%;
   color: #000;
 }
+.carousel-button{
+
+  width: 11px !important;
+  height: 10px !important;
+  border-radius: 50%;
+  
+}
+.carousel-indicators .active{
+
+  width: 13px !important;
+  height: 12px !important;
+
+}
