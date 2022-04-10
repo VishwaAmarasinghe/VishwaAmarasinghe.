@@ -9,6 +9,9 @@
 *, *::before, *::after {
   box-sizing: border-box;
 }
+html{
+  scroll-padding-top: 150px;
+}
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -133,7 +136,7 @@ label.logo{
 
     height: 1600px;
     width: 100%;
-    background-color: #c7ecee;
+    background-color: #e9ecef;
    }   
    #about{
 
@@ -144,7 +147,7 @@ label.logo{
     
     height: 920px;
     width: 100%;
-    background-color: #d2dae2;
+    background-color: #e9ecef;
    }
 
 
@@ -310,9 +313,7 @@ float: none;
 .big-title{
     font-size: 30px;
   }}
-  .topic1{
-    text-decoration: underline solid black ;
-  }
+
 .product-small-img img{
   height: 92px;
   margin: 50px 0;
@@ -432,7 +433,7 @@ float: none;
   width: 90%;
   font-size: 20px;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,.5);
-  background-color: #d2dae2;
+  
 
 }
 
@@ -482,11 +483,12 @@ float: none;
 }
 .con-col{
 background-color: #00CBA9;
-
+height: 600px;
 }
 .form{
 
   background-color: #A2D9FF;
+  height: 600px;
 }
 
 .icons{
@@ -496,6 +498,7 @@ font-size: 25px;
 .footer{
 
 height: 120px;
+background-color: #e9ecef;
 
 }
 a{
@@ -504,6 +507,7 @@ a{
 }
 .footer a {
   font-size: 20px;
+  
 }
 #hover{
   color: #000;
@@ -537,16 +541,13 @@ background-color: rgb(13, 196, 13);
 
 }
 .wave{
-
-  fill: #c7ecee;
+  fill: #e9ecef;
 }
 .wave1{
 
   fill:#d2dae2;
 }
-.bg-wave{
-  background-color: #c7ecee;
-}
+
 .hr{
 
   width: 90%;
