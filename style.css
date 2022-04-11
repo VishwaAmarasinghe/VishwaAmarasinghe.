@@ -22,7 +22,8 @@ nav{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 1rem 0;
+    height: 80px;
+    padding:0;
     z-index: 50;
     background-color: #fff;
     
@@ -136,18 +137,19 @@ label.logo{
 
     height: 1600px;
     width: 100%;
-    background-color: #e9ecef;
+
    }   
    #about{
 
-    height: 1660px;
+    height:auto;
     width: 100%;
+
    }
    #Contact{
     
     height: auto;
     width: 100%;
-    background-color: #e9ecef;
+
    }
 
 
@@ -189,7 +191,6 @@ label.logo{
    width: 400px;
    position: relative;
    float: right;
-  top: 100px;
   margin-right: 50px;
   border-radius: 30px;
 }
@@ -208,35 +209,17 @@ label.logo{
  max-width: 100%;
  height: auto;
  margin-right: 0px;
-float: none;
+ float: none;
   }
 }
 @media (max-width:710px){
   #myimg{
-    width:400px ;
-    margin-left:150px ;
+    width:300px ;
+    margin-right: 0px !important;
+    
   }
 }
-@media (max-width:621px){
-#myimg{
-  margin-left: 100px;
-}
-}
-@media (max-width:526px){
-  #myimg{
-    margin-left: 50px;
-  }
-}
-@media (max-width:474px){
-  #myimg{
-    margin-left: 10px;
-  }
-}
-@media (max-width:424px){
-  #myimg{
-    margin-left: 0px;
-  }
-}
+
 @media(max-width:902px) {
 .aboutme{
   position: relative;
@@ -275,11 +258,12 @@ float: none;
   text-decoration: none;
   
 }
-#carouselExampleCaptions{
+.slideshow{
   position: relative;
-  top: 300px;
+  top: 100px;
   width: 90%;
   height: 80%;
+  padding-bottom: 300px;
   
 
 }
@@ -300,16 +284,10 @@ float: none;
     height:400px ;
     width:100% ;
   }
-  #carouselExampleCaptions{
-    position: relative;
-    top:100px;
-  }
+
 }
 @media (max-width:315px){
-#carouselExampleCaptions{
-    position: relative;
-    top: 100px;
-}
+
 .big-title{
     font-size: 30px;
   }}
@@ -422,6 +400,7 @@ float: none;
 }
     
 .contact-main{
+
   position: relative;
   top: 50px;
   width: 90%;
@@ -431,7 +410,12 @@ float: none;
 
 }
 
-
+.contact{
+  background-image:linear-gradient(rgba(66, 77, 79, 0.644), rgba(78, 77, 86, 0.785)), url("img/contact.jpg");
+  background-size: cover;
+  height: auto;
+  padding-bottom: 100px;
+}
 .fa-map-marker-alt{
   padding: 10px;
   border: 2px solid #000;
@@ -468,7 +452,7 @@ float: none;
   
 }
 .form-col{
-  background-color: #575fcf;
+  color: #fbfbfc;
 }
 @media (max-width: 902px){
 
@@ -490,12 +474,22 @@ float: none;
   }
 }
 .con-col{
-background-color: #00CBA9;
+background: rgba(0, 203, 169, 0.426);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 10px );
+-webkit-backdrop-filter: blur( 10px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
 height: 600px;
 }
 .form{
-
-  background-color: #A2D9FF;
+  background: rgba(162, 216, 255, 0.514);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 10px );
+  -webkit-backdrop-filter: blur( 10px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  
   height: 600px;
 }
 
@@ -506,7 +500,7 @@ font-size: 25px;
 .footer{
 
 height: 120px;
-background-color: #e9ecef;
+
 
 }
 a{
@@ -533,13 +527,7 @@ background-color: rgb(13, 196, 13);
 .bg-insta{
   background-color:  #e4405f;
 }
-@media(max-width:768px){
-  #Contact{
-    height: 2000px;
 
-  }
-
-}
 @media(max-width:526){
 
   #app{
@@ -547,13 +535,6 @@ background-color: rgb(13, 196, 13);
     margin-left: 0px;
   }
 
-}
-.wave{
-  fill: #e9ecef;
-}
-.wave1{
-
-  fill:#d2dae2;
 }
 
 .hr{
@@ -572,5 +553,20 @@ background-color: rgb(13, 196, 13);
 
   width: 13px !important;
   height: 12px !important;
+
+}
+.about-me-bg{
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 20px );
+  -webkit-backdrop-filter: blur( 20px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  height:auto;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  border-radius: 15px;
+  margin: 10px;
+  margin-bottom: 0px;	
 
 }
