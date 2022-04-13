@@ -14,6 +14,7 @@ html{
 }
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
 }
 
 /* responsive nav start in here*/
@@ -134,19 +135,23 @@ label.logo{
     width: 100%;
 }
 #myworks{
-
-    height: 1600px;
+   
+   margin-bottom: 200px;
+    height: auto;
     width: 100%;
+    background-color: #7ed6df;
 
    }   
    #about{
 
     height:auto;
     width: 100%;
+    padding-bottom: 100px;
+
 
    }
    #Contact{
-    
+    padding-top: 100px;
     height: auto;
     width: 100%;
 
@@ -190,19 +195,33 @@ label.logo{
  #myimg{
    width: 400px;
    position: relative;
-   float: right;
-  margin-right: 50px;
-  border-radius: 30px;
+   float: left;
+  margin-left: 50px;
+  
 }
 
 .aboutme{
-  font-size:30px ;
+  float: right;
+  font-size:25px ;
   position: relative;
-  top: 5%;
-  margin-left: 20px;
+  top: 10px;
+  margin: 50px;
+  width: 50%;
+  margin-top: 10px;
+  color: #838293;
 }
+.school{
+  color: #838293;
+}
+.a-m-n {
 
-@media (max-width:902px){
+  font-size: 45px;
+  color: #000;
+}
+#app{
+  color: #000;
+}
+@media (max-width:1100px){
   #myimg{
  position: relative;
  top: 2px;
@@ -210,6 +229,21 @@ label.logo{
  height: auto;
  margin-right: 0px;
  float: none;
+  }
+  .aboutme{
+    width: 100%;
+    margin: 0px;
+    padding: 50px;
+    float: none;
+    position: relative;
+    text-align: center;
+  }
+  .a-m-n{
+
+    text-align: center;
+  }
+  #app{
+    text-align: center;
   }
 }
 @media (max-width:710px){
@@ -267,6 +301,7 @@ label.logo{
   
 
 }
+
 .d-block{
   height: 700px;
   width: 500px; 
@@ -342,14 +377,26 @@ float: none;
 }
 .topic3{
 
-  position: relative;
-  top: 150px;
+ text-transform: uppercase;
+ color: #fff;
+ font-weight: 1000;
+ 
+}
+.sertificates{
+  
+  padding-bottom: 200px;
+  padding-top: 50px;
 }
 .card{
-  position: relative;
-  top: 190px;
+  background: #575fcf91;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 10px );
+  -webkit-backdrop-filter: blur( 10px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
   box-shadow: 0 2px 10px 0 rgba(0,0,0,.2);
-  background-color: #575fcf;
+  margin-left: 10px;
+  
  
 }
 .card-title{
@@ -391,7 +438,16 @@ float: none;
     height: 2500px;
   }
 }
+.talents{
 
+
+  background-image:linear-gradient(rgba(66, 77, 79, 0.644), rgba(78, 77, 86, 0.785)), url("img/talents.jpg");
+  background-size: cover;
+  height: auto;
+  padding-bottom: 200px;
+  padding-top: 100px;
+ 
+}
 
 .fa-phone-alt{
 
@@ -549,24 +605,4 @@ background-color: rgb(13, 196, 13);
   border-radius: 50%;
   
 }
-.carousel-indicators .active{
 
-  width: 13px !important;
-  height: 12px !important;
-
-}
-.about-me-bg{
-  background: rgba( 255, 255, 255, 0.25 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 20px );
-  -webkit-backdrop-filter: blur( 20px );
-  border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
-  height:auto;
-  padding-top: 50px;
-  padding-bottom: 100px;
-  border-radius: 15px;
-  margin: 10px;
-  margin-bottom: 0px;	
-
-}

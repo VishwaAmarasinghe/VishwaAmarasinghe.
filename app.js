@@ -90,10 +90,10 @@ var typewriter = new Typewriter(app, {
   loop: true
 });
 
-typewriter.typeString('Hello guys I am <b class="text-danger">VISHWA</b>')
+typewriter.typeString(' I am a <b class="text-danger">WEB DEVOLOPER</b>')
   .pauseFor(2500)
-  .deleteChars(6)
-  .typeString('a <b class="text-danger">DESINGNER</b>')
+  .deleteChars(13)
+  .typeString(' <b class="text-danger">DESINGNER</b>')
   .pauseFor(2500)
   .deleteChars(9)
   .typeString('<b class="text-danger">PROGRAMMER</b>')
