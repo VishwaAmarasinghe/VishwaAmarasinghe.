@@ -100,3 +100,10 @@ typewriter.typeString(' I am a <b class="text-danger">WEB DEVOLOPER</b>')
   .pauseFor(2500)
   .start();
   /*typed js end in here*/
+  /*preloader*/
+  var loader = document.getElementById("preloader");
+
+  window.addEventListener("load",function(){
+    loader.style.display = "none";
+  })
+  /*preloader ends */

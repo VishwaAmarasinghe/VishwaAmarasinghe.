@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -13,7 +13,7 @@ html{
   scroll-padding-top: 150px;
 }
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Secular One', sans-serif;
     background-color: #f8f9fa;
 }
 
@@ -27,6 +27,7 @@ nav{
     padding:0;
     z-index: 50;
     background-color: #fff;
+   
     
 }
 
@@ -131,15 +132,16 @@ label.logo{
 /*smooth scroll sections start in here*/
 #home{
 
-      height: 1000px;
+     
     width: 100%;
 }
 #myworks{
    
-   margin-bottom: 200px;
+   margin-bottom: 100px;
     height: auto;
     width: 100%;
-    background-color: #7ed6df;
+    background-image: -webkit-linear-gradient(0deg,#766dff 0%,#88f3ff 100%);
+    padding-top: 50px;
 
    }   
    #about{
@@ -151,7 +153,7 @@ label.logo{
 
    }
    #Contact{
-    padding-top: 100px;
+    
     height: auto;
     width: 100%;
 
@@ -160,7 +162,7 @@ label.logo{
 
    .parallax {
     /* The image used */
-    background-image:url("img/new7_auto_x2.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.608), rgba(11, 11, 11, 0.532)),url("img/home-bg-2.jpg");
   position: relative;
     /* Full height */
     min-height: 1000px; 
@@ -229,6 +231,7 @@ label.logo{
  height: auto;
  margin-right: 0px;
  float: none;
+ margin-left: 0px;
   }
   .aboutme{
     width: 100%;
@@ -399,9 +402,7 @@ float: none;
   
  
 }
-.card-title{
-  font-family: "Righteous", cursive;
-}
+
 .row-1 {
   width: 1500px;
   height: 450px;
@@ -432,12 +433,7 @@ float: none;
     top: 100px;
   }
 }
-@media(max-width:768px){
 
-  #myworks{
-    height: 2500px;
-  }
-}
 .talents{
 
 
@@ -606,3 +602,12 @@ background-color: rgb(13, 196, 13);
   
 }
 
+#preloader{
+
+  background: #fff url("img/preloader.gif") no-repeat center;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 10000;
+
+}
