@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&family=Ubuntu+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Press+Start+2P&family=Secular+One&family=Ubuntu+Mono&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -162,7 +163,7 @@ label.logo{
 
    .parallax {
     /* The image used */
-    background-image:linear-gradient(rgba(0, 0, 0, 0.608), rgba(11, 11, 11, 0.532)),url("img/home-bg-2.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.608), rgba(11, 11, 11, 0.532)),url("img/bg.jpg");
   position: relative;
     /* Full height */
     min-height: 1000px; 
@@ -175,17 +176,16 @@ label.logo{
     background-size: cover;
   }
 .big-title{
-  position: absolute;
-  left: 40px;
-  z-index: 30;
-  line-height: 4rem;
-  top: calc(50% - 2rem);
-  font-size: 5rem;
+  position: relative;
+  font-family: 'Fredericka the Great', cursive;
+  top: 350px;
+  font-size: 8rem;
   font-weight: 600;
   text-transform: uppercase;
   color: white;
 
 }
+
 
 
 @media(max-width: 600px){
