@@ -89,14 +89,13 @@ label.logo{
 
   @media (max-width: 952px){
     label.logo{
-      font-size: 30px;
-      padding-left: 50px;
+     padding-left: 5px;
     }
     nav .ul .li a{
       font-size: 16px;
     }
   }
-  @media (max-width: 768px){
+  @media (max-width: 800px){
     .checkbtn{
       display: block;
       position: fixed;
@@ -196,10 +195,11 @@ label.logo{
 /*home page heading ends in here*/
  #myimg{
    width: 400px;
+   height: 400px;
    position: relative;
    float: left;
   margin-left: 50px;
-  
+  object-fit: cover;
 }
 
 .aboutme{
@@ -308,6 +308,7 @@ label.logo{
 .d-block{
   height: 700px;
   width: 500px; 
+  object-fit:cover;
 }
 @media(max-width:768px){
   #carouselExampleCaptions{
